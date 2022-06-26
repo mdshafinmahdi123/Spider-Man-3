@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Anek Latin', sans-serif;
+}
+.header{
+    height: 10%;
+}
+.logo{
+    width: 80px;
+    margin-top: 15px;
+}
+.btn-header{
+   background-color: #107faD;
+   padding: 10px 40px; 
+   border-radius: 30px;
+   margin-top: 15px;
+   font-weight: 600;
+   float:right ; 
+}
+.movie-details{
+    margin-top: 6%;
+    color: white;
+}
+.movie-details h3{
+    letter-spacing: 1px;
+    font-size: 3rem;
+}
+.movie-details p{
+    letter-spacing: 1px;
+}
+.casting img{
+    width:30px;
+    height: 40px;
+    margin-right: 10px;
+}
+.poster{
+    height: 400px;
+    cursor: pointer;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+.watch{
+    margin-top: 15px;
+    background-color: #107faD;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    
+}
+.download{
+    margin-top: 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.fa{
+    margin: 5% 0;
+}
+.popular{
+    margin: 5%;
+    color: white;
+}
+.popular h4{
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.series img{
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    transition: 1s;
+    cursor: pointer;
+}
+.series img:hover{
+    transform:translateY(-12px);
+
+}
